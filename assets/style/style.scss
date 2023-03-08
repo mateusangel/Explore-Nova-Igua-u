@@ -32,6 +32,7 @@ header {
    max-width: 1400px;
     
   margin: 0 auto;
+
   
  
   display: flex;
@@ -79,7 +80,7 @@ header {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 100px;
- 
+
  
  
 
@@ -144,11 +145,12 @@ header {
       p::before {
         content: ' ';
         display: flex;
-        width: 50px;
+        max-width: 50px;
         height: 50px;
         background-image: url(/assets/img/Chat.png);
         background-repeat: no-repeat;
       
+        
       }
     }
   }
@@ -194,7 +196,7 @@ header {
     content: ' ';
     display: flex;
     height: 10px;
-    width: 300px;
+    max-width: 300px;
     background: #2B2869;
   }
 }
@@ -215,6 +217,7 @@ header {
   .destaques-img {
     width: 100%;
     max-width: 500px;
+    
   }
 
   .destaques-grid-01 {
@@ -237,7 +240,7 @@ header {
       gap: 5px;
       align-items: center;
       background: #d9d9d9;
-      width: 180px;
+      max-width: 180px;
       padding: 10px 20px;
       border-radius: 10px;
       color: #232323;
@@ -551,6 +554,7 @@ header {
          transition: 0.5s ;
         cursor: pointer;
       
+      
      
       }
     }
@@ -594,7 +598,7 @@ header {
     .active{
          
     
-       display: block !important;
+        display: block !important;
       
       
     
