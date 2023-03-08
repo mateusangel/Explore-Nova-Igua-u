@@ -731,65 +731,8 @@ header {
     flex-direction: column;
     justify-content: center;
   }
-// copy
+  // copy
 
-  // #coopy{
-  //   display: flex;
-  //   flex-direction: row;
-  //   justify-content: center;
-  //   align-items: center;
-
-  //   font-size: 2rem ;
-
-
-  //   .coopy-grid-pai{
-  //     display: flex;
-  //     flex-direction: column;
-  //     justify-content: center;
-  //     align-items: center;   
-      
-  //     font-size: 1.4rem;
-
-  //   }
-    
-  //   .tele{
-      
-  //     margin-right: 6rem;
-  //     img{
-  //       margin-left: 5rem !important;
-  //     }
-      
-  //   }
-  //   .email{
-  //       margin-right: 4rem !important;
-       
-  //       img{
-  //         margin-left: 3rem;
-  //       }
-  //     }
-  
-  //   img{
-  //       margin: auto;
-  //   }
-
-
-  //   h1{
-          
-  //     text-align: center;  
-  //   }
-
-  
-  //   .social{
-  //     display: flex;
-  //     flex-direction: row;
-  //     justify-content: center;
-  //     align-items: center;
-  //     text-align: center;
-  //     max-width: 1.4rem;
-  //     gap: 1rem;
-  //   }
-
-  // }
 }
 
 @media(max-width:720px){
@@ -921,6 +864,81 @@ header {
 
     
     
+  }
+
+
+
+  
+  #coopy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem ;
+
+    .direitos{
+      font-size: 1rem;
+    }
+
+
+
+
+
+    .coopy-grid-pai{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;   
+     
+      
+      font-size: 1.4rem;
+      
+      
+    }
+    
+    .tele{
+      
+      width: max-content;
+ 
+ 
+    
+      
+      img{
+        margin-left: 5rem !important;
+        
+      }
+      
+    }
+    .email{
+      margin-right: 4rem !important;
+      
+      img{
+        margin-left: 3rem;
+      }
+    }
+    
+  
+    img{
+        margin: auto;
+    }
+
+
+    h1{
+      text-align: center;  
+    }
+
+  
+    .social{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 1.4rem;
+      gap: 1rem;
+    }
+
   }
   
 

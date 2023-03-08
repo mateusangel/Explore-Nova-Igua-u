@@ -589,4 +589,48 @@ header button {
   #destaques img {
     width: 15rem;
   }
+  #coopy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  #coopy .direitos {
+    font-size: 1rem;
+  }
+  #coopy .coopy-grid-pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+  #coopy .tele {
+    width: max-content;
+  }
+  #coopy .tele img {
+    margin-left: 5rem !important;
+  }
+  #coopy .email {
+    margin-right: 4rem !important;
+  }
+  #coopy .email img {
+    margin-left: 3rem;
+  }
+  #coopy img {
+    margin: auto;
+  }
+  #coopy h1 {
+    text-align: center;
+  }
+  #coopy .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1.4rem;
+    gap: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
