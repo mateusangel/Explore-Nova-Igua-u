@@ -80,7 +80,6 @@ header {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 100px;
-
  
  
 
@@ -902,29 +901,38 @@ header {
     }
     
     .tele{
-      
+      margin-right: 2rem !important;
       width: max-content;
- 
- 
-    
+      margin: auto;
       
       img{
-        margin-left: 5rem !important;
+      
+        display: none;
+      
         
       }
       
     }
+
     .email{
-      margin-right: 4rem !important;
+      margin-right: 1rem !important;
+      margin: auto;
+     
+      max-width: max-content;
+    
       
       img{
-        margin-left: 3rem;
+      
+        display: none;
+      
+        
       }
     }
     
   
     img{
         margin: auto;
+       
     }
 
 

@@ -607,16 +607,20 @@ header button {
     font-size: 1.4rem;
   }
   #coopy .tele {
+    margin-right: 2rem !important;
     width: max-content;
+    margin: auto;
   }
   #coopy .tele img {
-    margin-left: 5rem !important;
+    display: none;
   }
   #coopy .email {
-    margin-right: 4rem !important;
+    margin-right: 1rem !important;
+    margin: auto;
+    max-width: max-content;
   }
   #coopy .email img {
-    margin-left: 3rem;
+    display: none;
   }
   #coopy img {
     margin: auto;
