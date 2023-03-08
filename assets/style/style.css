@@ -536,8 +536,16 @@ header button {
   }
 }
 @media (max-width: 540px) {
+  header .logo {
+    margin-left: 2.4rem !important;
+  }
+  #main-page .ni {
+    width: 17rem !important;
+    margin-right: -11rem !important;
+  }
   #main-page .nova-h1 {
     font-size: 1.8rem !important;
+    margin-left: -4rem;
   }
   .main-grid-text {
     margin-top: 1rem !important;

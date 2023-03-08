@@ -776,11 +776,25 @@ header {
 }
 
 @media(max-width:540px){
+
+  header{
+    .logo{
+   
+      margin-left: 2.4rem !important;
+    }
+  }
+
+
   #main-page{
-    
+
+  .ni{
+    width: 17rem !important;
+    margin-right: -11rem !important;
+  }
     
     .nova-h1{
       font-size: 1.8rem !important;
+      margin-left: -4rem ;
       
       }
       
